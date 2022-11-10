@@ -1,0 +1,9 @@
+name: Deployment
+
+on: push
+
+jobs:
+  deployment:
+    environment: 
+      name: graphql-api
+      url: https://graphql-api-nc2w.onrender.com
